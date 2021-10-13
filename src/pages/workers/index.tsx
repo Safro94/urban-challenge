@@ -1,5 +1,13 @@
+import WorkersContainer from '../../containers/workersContainer';
+
+import { Wrapper } from './index.styles';
+
 const Workers = () => {
-	return <h1>workers</h1>;
+	return (
+		<Wrapper>
+			<WorkersContainer />
+		</Wrapper>
+	);
 };
 
 export default Workers;

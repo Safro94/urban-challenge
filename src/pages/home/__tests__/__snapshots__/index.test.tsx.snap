@@ -13,7 +13,7 @@ exports[`Home should render correctly 1`] = `
       <span
         class="sc-hKgJUU"
       >
-        Welcome Matias Safranchik
+        Matias Safranchik
       </span>
       <h2
         class="sc-eCstlR"

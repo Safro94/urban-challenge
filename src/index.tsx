@@ -3,13 +3,17 @@ import { ThemeProvider } from 'styled-components';
 
 import App from './components/app';
 
+import { ApplicationProvider } from './hooks/application';
+
 import GlobalStyle from './theme/globalStyles';
 import { theme } from './theme';
 
 ReactDOM.render(
-	<ThemeProvider theme={theme}>
-		<GlobalStyle />
-		<App />
-	</ThemeProvider>,
+	<ApplicationProvider>
+		<ThemeProvider theme={theme}>
+			<GlobalStyle />
+			<App />
+		</ThemeProvider>
+	</ApplicationProvider>,
 	document.getElementById('root')
 );

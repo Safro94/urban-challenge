@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkersContainer should render correctly when service returns properties 1`] = `
+<div
+  class="sc-dQoVA cEIhtC"
+>
+  <div
+    class="sc-bdfBQB dxzuBe"
+  >
+    <div
+      class="sc-dlfnuX gTTmwj"
+    >
+      <label
+        class="sc-eCstlR kAGrIR"
+        for="downshift-0-input"
+        id="downshift-0-label"
+      >
+        Select a worker
+      </label>
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-owns="downshift-0-menu"
+        class="sc-gsTEea fFdqYP"
+        role="combobox"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-controls="downshift-0-menu"
+          aria-labelledby="downshift-0-label"
+          autocomplete="off"
+          class="sc-hKgJUU wJrVD"
+          id="downshift-0-input"
+          placeholder="Select a worker"
+          value=""
+        />
+      </div>
+    </div>
+    <ul
+      aria-labelledby="downshift-0-label"
+      class="sc-kstqJO eGBVjW"
+      id="downshift-0-menu"
+      role="listbox"
+    >
+      <li
+        aria-selected="false"
+        class="sc-gKseQn dvkeCf"
+        id="downshift-0-item-0"
+        role="option"
+      >
+        <div
+          class="sc-iBPTik cUqWwi"
+        >
+          <div
+            class="sc-jrAFXE gZuALw"
+          >
+            <img
+              alt="Worker 0"
+              class="sc-iqHYmW hEHryu"
+              src="therapist.jpeg"
+            />
+          </div>
+          <div
+            class="sc-pGacB bcJhql"
+          >
+            <div
+              class="sc-kEjbQP iUkCGp"
+            >
+              <span
+                class="sc-crrszt"
+              >
+                Name:
+              </span>
+              <span
+                class="sc-crrszt"
+              >
+                Maxwell
+              </span>
+            </div>
+            <div
+              class="sc-kEjbQP iUkCGp"
+            >
+              <span
+                class="sc-crrszt"
+              >
+                Rating:
+              </span>
+              <span
+                class="sc-crrszt"
+              >
+                ⭐⭐⭐⭐
+              </span>
+            </div>
+          </div>
+          <div
+            class="sc-fubCzh drXHda"
+          >
+            <button
+              class="sc-jSgvzq hLltFr"
+              type="button"
+            >
+              Book
+            </button>
+          </div>
+        </div>
+      </li>
+      <li
+        aria-selected="false"
+        class="sc-gKseQn dvkeCf"
+        id="downshift-0-item-1"
+        role="option"
+      >
+        <div
+          class="sc-iBPTik cUqWwi"
+        >
+          <div
+            class="sc-jrAFXE gZuALw"
+          >
+            <img
+              alt="Worker 1"
+              class="sc-iqHYmW hEHryu"
+              src="therapist.jpeg"
+            />
+          </div>
+          <div
+            class="sc-pGacB bcJhql"
+          >
+            <div
+              class="sc-kEjbQP iUkCGp"
+            >
+              <span
+                class="sc-crrszt"
+              >
+                Name:
+              </span>
+              <span
+                class="sc-crrszt"
+              >
+                Melina
+              </span>
+            </div>
+            <div
+              class="sc-kEjbQP iUkCGp"
+            >
+              <span
+                class="sc-crrszt"
+              >
+                Rating:
+              </span>
+              <span
+                class="sc-crrszt"
+              >
+                ⭐⭐⭐⭐
+              </span>
+            </div>
+          </div>
+          <div
+            class="sc-fubCzh drXHda"
+          >
+            <button
+              class="sc-jSgvzq hLltFr"
+              type="button"
+            >
+              Book
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="sc-bqyKOL iOnCHN"
+  >
+    <a
+      class="sc-hBEYId hCthmQ"
+      href="/"
+    >
+      Go back
+    </a>
+  </div>
+</div>
+`;

@@ -33,7 +33,7 @@ const Home = () => {
 		<HomeWrapper>
 			<HomeContent>
 				<HomeInformationContainer>
-					<HomeUsername>Welcome Matias Safranchik</HomeUsername>
+					<HomeUsername>Matias Safranchik</HomeUsername>
 					<HomeTimeSlot>30 minutes appointment</HomeTimeSlot>
 					<HomeInformation>
 						A 30 minutes appointment with the best practitioners in the world.
