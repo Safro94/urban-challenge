@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was built for a coding challenge. The client is a CRA React + Typescript application. This project uses Styled Components for the styles.
+This project was built for a coding challenge. The application is a CRA React + Typescript application. This project uses Styled Components for the styles.
 
 ## Folder structure
 
@@ -25,8 +25,6 @@ This project was built for a coding challenge. The client is a CRA React + Types
       └── README.md
 
 ## Stack
-
-### Client
 
     - React
     - Typescript
