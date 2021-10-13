@@ -16,11 +16,12 @@ export const SlotsContainer = styled.div(
 	flex-direction: column;
 	gap: 10px;
 	overflow-y: auto;
-	height: 50vh;
+	height: 70vh;
 	
 	@media ${theme.breakpoints.tablet} {
 		flex: 0.5;
 		width: initial;
+		height: 50vh;
 	}
 `
 );

@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const HomeWrapper = styled.div(
 	({ theme }) => `
 	background: ${theme.palette.common.background};
-	min-height: 100vh;
 	padding: 1rem;
 
 	@media ${theme.breakpoints.desktop} {
+		min-height: 100vh;
 		display: flex;
 	}
 `
@@ -22,11 +22,12 @@ export const HomeContent = styled.div(
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	min-height: 60vh;
+	min-height: 100vh;
 
 	@media ${theme.breakpoints.tablet} {
 		width: 70%;
 		flex-direction: row;
+		min-height: 60vh;
 		max-height: 60vh;
 	}
 `

@@ -21,6 +21,10 @@ const Home = () => {
 	const handleError = useErrorHandler();
 
 	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	useEffect(() => {
 		const getWorkers = async () => {
 			const apiWorkers = await WorkerService.getWorkers(handleError);
 			setWorkers(apiWorkers);
