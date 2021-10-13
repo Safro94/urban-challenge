@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart should render Cart items when items is not empty 1`] = `
+<aside
+  class="sc-gKseQn gHVkfn"
+>
+  <h2
+    class="sc-iBPTik"
+  >
+    Your appointments
+  </h2>
+  <div
+    class="sc-bdfBQB hWkheb"
+  >
+    <div
+      class="sc-dlfnuX iUSfSL"
+    >
+      <h3
+        class="sc-hKgJUU"
+      >
+        Your appointment details
+      </h3>
+      <div
+        class="sc-gsTEea IuqUL"
+      >
+        <span
+          class="sc-eCstlR"
+        >
+          Price: £
+          20.00
+        </span>
+        <span
+          class="sc-eCstlR"
+        >
+          Therapist: 
+          test
+        </span>
+        <span
+          class="sc-eCstlR"
+        >
+          Time: 
+          10:00
+        </span>
+      </div>
+      <div
+        class="sc-gsTEea IuqUL"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Remove
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <img
+      alt="test"
+      class="sc-jSgvzq kJKEKm"
+      src="therapist.jpeg"
+    />
+  </div>
+  <div
+    class="sc-bdfBQB hWkheb"
+  >
+    <div
+      class="sc-dlfnuX iUSfSL"
+    >
+      <h3
+        class="sc-hKgJUU"
+      >
+        Your appointment details
+      </h3>
+      <div
+        class="sc-gsTEea IuqUL"
+      >
+        <span
+          class="sc-eCstlR"
+        >
+          Price: £
+          20.00
+        </span>
+        <span
+          class="sc-eCstlR"
+        >
+          Therapist: 
+          test2
+        </span>
+        <span
+          class="sc-eCstlR"
+        >
+          Time: 
+          10:00
+        </span>
+      </div>
+      <div
+        class="sc-gsTEea IuqUL"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Remove
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <img
+      alt="test2"
+      class="sc-jSgvzq kJKEKm"
+      src="therapist.jpeg"
+    />
+  </div>
+  <h2
+    class="sc-fubCzh"
+  >
+    Total: $
+    40.00
+  </h2>
+</aside>
+`;
+
+exports[`Cart should render the text No appointments when items is an empty array 1`] = `
+<aside
+  class="sc-gKseQn gHVkfn"
+>
+  <h2
+    class="sc-iBPTik"
+  >
+    Your appointments
+  </h2>
+  <p>
+    No appointments
+  </p>
+  <h2
+    class="sc-fubCzh"
+  >
+    Total: $
+    0.00
+  </h2>
+</aside>
+`;

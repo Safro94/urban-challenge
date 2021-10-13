@@ -1,10 +1,14 @@
 import { useHistory } from 'react-router';
+import { v4 as uuidv4 } from 'uuid';
 
 import Button from '../button';
 
+import { useCart } from '../../hooks/cart';
+import { useApplication } from '../../hooks/application';
+
 import { HOME } from '../../constants/routes';
 
-import { IWorker } from '../../types';
+import { ICartItem, IWorker } from '../../types';
 
 import therapistImg from '../../assets/therapist.jpeg';
 
@@ -27,8 +31,19 @@ interface IWorkerProps {
 
 const Worker = ({ item, index, getItemProps }: IWorkerProps) => {
 	const history = useHistory();
+	const { selectedSlot } = useApplication();
+	const { addToCart } = useCart();
 
 	const handleClick = () => {
+		const cartItem: ICartItem = {
+			id: uuidv4(),
+			slot: selectedSlot,
+			worker: item,
+			price: Number(selectedSlot?.price.replace(/[^0-9.-]+/g, '')) ?? 0,
+			amount: 1,
+		};
+
+		addToCart(cartItem);
 		history.push(HOME);
 	};
 

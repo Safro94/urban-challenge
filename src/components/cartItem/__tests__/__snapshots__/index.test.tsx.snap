@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem should render correctly 1`] = `
+<div
+  class="sc-bdfBQB hWkheb"
+>
+  <div
+    class="sc-dlfnuX iUSfSL"
+  >
+    <h3
+      class="sc-hKgJUU"
+    >
+      Your appointment details
+    </h3>
+    <div
+      class="sc-gsTEea IuqUL"
+    >
+      <span
+        class="sc-eCstlR"
+      >
+        Price: £
+        20.00
+      </span>
+      <span
+        class="sc-eCstlR"
+      >
+        Therapist: 
+        test
+      </span>
+      <span
+        class="sc-eCstlR"
+      >
+        Time: 
+        10:00
+      </span>
+    </div>
+    <div
+      class="sc-gsTEea IuqUL"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Remove
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+  <img
+    alt="test"
+    class="sc-jSgvzq kJKEKm"
+    src="therapist.jpeg"
+  />
+</div>
+`;

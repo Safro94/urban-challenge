@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Worker should render correctly 1`] = `
+<li
+  class="sc-gsTEea kELbDD"
+>
+  <div
+    class="sc-dlfnuX kAgLnS"
+  >
+    <div
+      class="sc-jSgvzq Pbzfh"
+    >
+      <img
+        alt="Worker 1"
+        class="sc-iBPTik cYyUHg"
+        src="therapist.jpeg"
+      />
+    </div>
+    <div
+      class="sc-eCstlR irqCIl"
+    >
+      <div
+        class="sc-gKseQn fcrZBH"
+      >
+        <span
+          class="sc-fubCzh"
+        >
+          Name:
+        </span>
+        <span
+          class="sc-fubCzh"
+        >
+          test
+        </span>
+      </div>
+      <div
+        class="sc-gKseQn fcrZBH"
+      >
+        <span
+          class="sc-fubCzh"
+        >
+          Rating:
+        </span>
+        <span
+          class="sc-fubCzh"
+        >
+          ⭐⭐⭐⭐
+        </span>
+      </div>
+    </div>
+    <div
+      class="sc-hKgJUU jXFudM"
+    >
+      <button
+        class="sc-bdfBQB LqdYh"
+        type="button"
+      >
+        Book
+      </button>
+    </div>
+  </div>
+</li>
+`;

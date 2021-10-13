@@ -5,6 +5,8 @@ import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import CancelIcon from '@material-ui/icons/Cancel';
 import Drawer from '@material-ui/core/Drawer';
 
+import Cart from '../cart';
+
 import { HOME } from '../../constants/routes';
 
 import { useCart } from '../../hooks/cart';
@@ -57,6 +59,7 @@ const Header = () => {
 						>
 							<CancelIcon />
 						</HeaderCloseIconWrapper>
+						<Cart items={cart} />
 					</Drawer>
 					<HeaderButton
 						data-testid='cart-button'
