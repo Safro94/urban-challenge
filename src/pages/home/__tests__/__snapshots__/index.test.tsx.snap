@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<div
+  class="sc-bdfBQB gihfMK"
+>
+  <div
+    class="sc-gsTEea XzNnr"
+  >
+    <div
+      class="sc-dlfnuX kKuPIC"
+    >
+      <span
+        class="sc-hKgJUU"
+      >
+        Welcome Matias Safranchik
+      </span>
+      <h2
+        class="sc-eCstlR"
+      >
+        30 minutes appointment
+      </h2>
+      <p
+        class="sc-jSgvzq"
+      >
+        A 30 minutes appointment with the best practitioners in the world. Select the date and time and enjoy the best experience of your life!
+      </p>
+    </div>
+    <div>
+      date selection container
+    </div>
+  </div>
+</div>
+`;

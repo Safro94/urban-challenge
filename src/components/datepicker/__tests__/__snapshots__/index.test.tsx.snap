@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Datepicker should match the snapshot 1`] = `
+<div
+  class="sc-eCstlR evnTVf"
+>
+  <div
+    class="sc-hKgJUU kpfJCg"
+  >
+    <label
+      class="sc-dlfnuX kdROzM"
+    >
+      Select a date
+      <input
+        aria-describedby="date-picker-sr-message"
+        class="sc-jSgvzq udJrS"
+        type="text"
+        value="13/10/2021"
+      />
+      <div
+        id="date-picker-sr-message"
+        style="border: 0px; height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; position: absolute;"
+      >
+        <p>
+          Press the down arrow key to interact with the calendar and select a date. The following keyboard shortcuts can be used to change dates.
+        </p>
+        <ul>
+          <li>
+            Enter Key: select the date in focus.
+          </li>
+          <li>
+            Right and left arrow keys: Move backward (left) and forward (right) by one day.
+          </li>
+          <li>
+            Up and down arrow keys: Move backward (up) and forward (down) by one week.
+          </li>
+          <li>
+            Page up and page down keys: Switch months.
+          </li>
+          <li>
+            Home and end keys: go to the first or last day of a week.
+          </li>
+          <li>
+            Escape key: Return to the date input field.
+          </li>
+        </ul>
+      </div>
+    </label>
+  </div>
+</div>
+`;
