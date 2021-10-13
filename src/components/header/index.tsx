@@ -7,8 +7,9 @@ import Drawer from '@material-ui/core/Drawer';
 
 import { HOME } from '../../constants/routes';
 
-import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { useCart } from '../../hooks/cart';
 
+import { ReactComponent as Logo } from '../../assets/logo.svg';
 import avatar from '../../assets/avatar.jpeg';
 
 import {
@@ -25,6 +26,7 @@ import {
 } from './index.styles';
 
 const Header = () => {
+	const { cart, getTotalItems } = useCart();
 	const [isCartOpen, setIsCartOpen] = useState(false);
 
 	const user = 'Matias';
@@ -60,7 +62,7 @@ const Header = () => {
 						data-testid='cart-button'
 						onClick={() => setIsCartOpen(true)}
 					>
-						<Badge badgeContent={1} color='error'>
+						<Badge badgeContent={getTotalItems(cart)} color='error'>
 							<AddShoppingCartIcon />
 						</Badge>
 					</HeaderButton>
