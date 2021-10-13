@@ -128,7 +128,7 @@ exports[`Cart should render Cart items when items is not empty 1`] = `
   <h2
     class="sc-fubCzh"
   >
-    Total: $
+    Total: £
     40.00
   </h2>
 </aside>
@@ -149,7 +149,7 @@ exports[`Cart should render the text No appointments when items is an empty arra
   <h2
     class="sc-fubCzh"
   >
-    Total: $
+    Total: £
     0.00
   </h2>
 </aside>

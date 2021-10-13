@@ -88,3 +88,7 @@ if you want to check the code coverage.
 ## Technical decisions
 
 See this [file](https://github.com/Safro94/urban-challenge/blob/master/docs/decisions.md).
+
+## Production
+
+Go to this [link](https://clever-elion-e31fbc.netlify.app/) to see the deployed version.

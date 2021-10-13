@@ -24,7 +24,7 @@ const Cart = ({ items }: ICartProps) => {
 				<CartItem key={item.id} item={item} />
 			))}
 
-			<CartTotal>Total: ${calculateTotal(items).toFixed(2)}</CartTotal>
+			<CartTotal>Total: £{calculateTotal(items).toFixed(2)}</CartTotal>
 		</CartContainer>
 	);
 };
