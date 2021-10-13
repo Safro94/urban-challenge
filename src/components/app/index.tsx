@@ -2,6 +2,7 @@ import { ErrorBoundary } from 'react-error-boundary';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 import Error from '../error';
+import Header from '../header';
 
 import { HOME, WORKERS } from '../../constants/routes';
 
@@ -14,6 +15,7 @@ import { Container } from './index.styles';
 const App = () => {
 	return (
 		<Router>
+			<Header />
 			<Container>
 				<ErrorBoundary FallbackComponent={Error}>
 					<Switch>
