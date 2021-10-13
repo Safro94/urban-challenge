@@ -1,46 +1,92 @@
-# Getting Started with Create React App
+# Urban Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project was built for a coding challenge. The client is a CRA React + Typescript application. This project uses Styled Components for the styles.
 
-In the project directory, you can run:
+## Folder structure
 
-### `npm start`
+    root
+      ├── public
+      │
+      ├── src
+      │    ├── assets
+      │    ├── components
+      │    ├── constants
+      │    ├── containers
+      │    ├── hooks
+      │    ├── pages
+      │    ├── services
+      │    ├── theme
+      │    ├── types
+      │    ├── utils
+      │    └── index.tsx
+      │
+      └── README.md
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Client
 
-### `npm test`
+    - React
+    - Typescript
+    - Styled Components
+    - Jest + React testing library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to start
 
-### `npm run build`
+### Clone
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can clone the repo using this url: https://github.com/Safro94/urban-challenge
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/Safro94/urban-challenge.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install dependencies
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+cd urban-challenge
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Add .env file with this keys
 
-## Learn More
+```
+REACT_APP_SERVER_URL=https://storage.googleapis.com/urban-technical
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project and run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
+
+The application should be running in http://localhost:3000
+
+## Test
+
+The application uses Jest + React testing library. You can run this command to run the tests.
+
+```
+npm test
+```
+
+to run the tests or
+
+```
+npm run coverage
+```
+
+if you want to check the code coverage.
+
+## Technical decisions
+
+See this [file](https://github.com/Safro94/urban-challenge/blob/master/docs/decisions.md).
