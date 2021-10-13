@@ -41,12 +41,6 @@ export interface IAvailableWorkersResponse {
 	'available-workers': IAvailableWorkerResponse[];
 }
 
-export interface ISelectOption {
-	label: string;
-	value: string;
-	[key: string]: unknown;
-}
-
 export enum RequestMethods {
 	GET = 'get',
 	POST = 'post',
